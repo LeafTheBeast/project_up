@@ -1,0 +1,55 @@
+html, body {
+    font-family: "Open Sans", sans-serif;
+    background: #111;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+}
+
+.scroll-progress {
+    width: 100%;
+    background-color: #00acee;;
+    height: 3px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.link {
+    background-color: darkcyan;
+    border: none;
+    border-radius: 4px;
+    padding: 14px 25px;
+    height: 80px;
+    width: 100px;
+    margin: 1%;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.link:hover {
+
+    box-shadow:  0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: rgb(26, 163, 242);
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background: rgb(33, 36, 38)
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #00acee;;
+}
+
+h1 {
+    text-align: center;
+    color: #00acee;
+}
